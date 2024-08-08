@@ -1,0 +1,86 @@
+body {
+    background-color: darksalmon;
+}
+
+img {
+    border: 10px solid rgb(205, 110, 27);
+}
+
+section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img-item {
+    position: inline;
+    width: 30%;
+}
+
+.top-bar {
+    width: 100%;
+}
+
+.logo {
+    max-width: 100%;
+    background-color: rgb(205, 110, 27);
+    border-radius: 55%;
+    border-color: rgb(205, 110, 27);
+}
+
+.logo-box {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.menu {
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+}
+
+.menu-item {
+    padding: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(167, 78, 14);
+    background-color: antiquewhite;
+    text-align: center;
+    width: auto;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.contenedor2 {
+    box-shadow: 0 0 20px 1px rosybrown;
+    max-width: 100%;
+    margin: 2em auto;
+    padding: 5px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.mapa {
+    padding-top: 2em;
+    position: sticky;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(43, 154, 182);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: rgb(136, 177, 187);
+    }
+}
