@@ -5,42 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="/css/style.css">
 </head>
 <body>
-    
-<div class="top-bar">
+
+<!-- Header -->
+<header class="top-bar">
     <div class="logo-box">
-        <img src="../img/logo.jpg" alt="logo" class="logo">
+        <img src="../img/logo.jpg" alt="Logo Tamarindo Gastrobar" class="logo">
     </div>  
 
-    <div class="menu">
+    <nav class="menu">
         <a class="menu-item item1" href="/comision940/index.html">Inicio</a> 
         <a class="menu-item" href="/comision940/pages/menu.html">Menú</a>
-        <a class="menu-item" href="/comision940/pages/2x1.html">2X1</a>
+        <a class="menu-item" href="/comision940/pages/dos_por_uno.html">2X1</a>
         <a class="menu-item" href="/comision940/pages/nosotros.html">Nosotros</a>
         <a class="menu-item" href="/comision940/pages/eventos.html">Eventos</a>
         <a class="menu-item" href="/comision940/pages/contacto.html">Contacto</a>
-    </div>
-</div>
+    </nav>
+</header>
 
-<div class="contenedor2">
+<!-- Main Content -->
+<main class="contenedor2">
     <h1>Contáctanos y Reserva</h1>
-    <form class="row gap-3">
-        <div class="col6">
-            <label for="nombreInput" class="formlabel">Nombre y Apellido</label>
+    <form class="row g-3 mt-4">
+        <div class="col-md-6">
+            <label for="nombreInput" class="form-label">Nombre y Apellido</label>
             <input type="text" class="form-control" id="nombreInput" name="nombre">
         </div>
-        <div class="col6">
-            <label for="emailInput" class="formlabel">Correo Electrónico</label>
+        <div class="col-md-6">
+            <label for="emailInput" class="form-label">Correo Electrónico</label>
             <input type="email" class="form-control" id="emailInput" name="email">
         </div>
+        <div class="col-md-6">
+            <label for="telefonoInput" class="form-label">Teléfono de contacto</label>
+            <input type="tel" class="form-control" id="telefonoInput" name="telefono">
+        </div>
+        <div class="col-md-6">
+            <label for="fechaInput" class="form-label">Fecha de Reserva</label>
+            <input type="date" class="form-control" id="fechaInput" name="fecha">
+        </div>
+        <div class="col-md-12">
+            <label for="mensajeInput" class="form-label">Mensaje o Consulta</label>
+            <textarea class="form-control" id="mensajeInput" rows="4" name="mensaje"></textarea>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+        </div>
     </form>
-</div>
+</main>
 
+<!-- Map Section -->
 <section class="mapa">
+    <h2>Ubicación</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.5902860795763!2d-76.30635639105134!3d3.897619248082857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39e785a8c1a8ef%3A0xc5b8617b2a185fe4!2sTAMARINDO%20GASTROBAR!5e0!3m2!1ses!2sar!4v1723154514193!5m2!1ses!2sar" 
     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
+<!-- Footer -->
+<footer class="text-center mt-4">
+    <p>&copy; 2024 Tamarindo Gastrobar. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
+
+
