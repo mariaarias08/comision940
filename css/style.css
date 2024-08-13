@@ -148,7 +148,7 @@ form {
 }
 
 
-.nosotros-1{ background-image:url(/img/tama2.jpg);
+.nosotros-1{ background-image:url(../img/tama2.jpg);
     width: 80%;
 height: 300px;
 background-position: center;
@@ -156,14 +156,14 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.nosotros-2{ background-image:url(/img/tama\ 6.jpg);
+.nosotros-2{ background-image:url(../img/tama\ 6.jpg);
     width: 80%;
 height: 300px;
 background-position: center;
 margin-left: auto;
 margin-right: auto;}
 
-.nosotros-3{ background-image:url(/img/tama\ 1.jpg);
+.nosotros-3{ background-image:url(../img/tama\ 1.jpg);
     width: 80%;
 height: 300px;
 background-position: center;
