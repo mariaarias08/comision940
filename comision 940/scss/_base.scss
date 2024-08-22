@@ -1,0 +1,30 @@
+body {
+    background-color: $background-color-body-default;
+  }
+  
+  a:visited {
+    color: $primary-color;
+  }
+  
+  .ubicacion {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  
+  img {
+    border: 10px solid $secondary-color;
+  }
+  
+  h1, h2 {
+    color: $primary-color;
+    background-color: antiquewhite;
+    text-align: center;
+    width: auto;
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  

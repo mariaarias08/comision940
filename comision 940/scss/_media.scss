@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  
+    .form-control {
+      font-size: 0.9em;
+    }
+  
+    .btn-primary {
+      font-size: 1em;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: $background-color-body-small;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    body {
+      background-color: $background-color-body-smaller;
+    }
+  }
+  
