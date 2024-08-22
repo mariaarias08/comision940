@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body style="background-color: darksalmon;">
 
-<!-- Header -->
+
 <header class="top-bar">
     <div class="logo-box">
         <img src="../img/logo.jpg" alt="Logo Tamarindo Gastrobar" class="logo">
@@ -26,10 +26,10 @@
     </nav>
 </header>
 
-<!-- Main Content -->
+
 <main class="contenedor2">
-    <h1 class="text-center">Contáctanos y Reserva</h1>
-    <form class="row g-3 mt-4 mx-auto" style="max-width: 800px;background-color: #b3b3b3;" >
+    <h1  style="color: rgb(167, 78, 14); font-family: Georgia, 'Times New Roman', Times, serif;" class="text-center" >Contáctanos y Reserva</h1>
+    <form class="row g-3 mt-4 mx-auto" style="max-width: 800px;background-color: #d88080;" >
         <div class="col-md-12">
             <label for="nombreInput" class="form-label">Nombre y Apellido</label>
             <input type="text" class="form-control" id="nombreInput" name="nombre">
@@ -51,20 +51,25 @@
             <textarea class="form-control" id="mensajeInput" rows="4" name="mensaje"></textarea>
         </div>
         <div class="col-12 text-center">
-            <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+            <button style="background-color: rosybrown;
+            border-color: rgb(167, 78, 14);
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 40px;
+            -webkit-border-radius: 40px;
+            -moz-border-radius: 40px;" >Enviar Reserva</button>
         </div>
     </form>
 </main>
 
-
-<!-- Map Section -->
-<section class="mapa">
-    <h2 >Ubicación</h2>
+<h2 style="color: rgb(167, 78, 14); font-family: Georgia, 'Times New Roman', Times, serif;">Ubicación</h2>
+<section class="mapa" style="margin: 5%;padding-left: 20%;">
+    
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.5902860795763!2d-76.30635639105134!3d3.897619248082857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39e785a8c1a8ef%3A0xc5b8617b2a185fe4!2sTAMARINDO%20GASTROBAR!5e0!3m2!1ses!2sar!4v1723154514193!5m2!1ses!2sar" 
     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
-<!-- Footer -->
+
 <footer class="text-center mt-4">
     <p>&copy; 2024 Tamarindo Gastrobar. Todos los derechos reservados.</p>
 </footer>
