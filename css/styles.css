@@ -6,6 +6,8 @@ body {
 a:visited {
   color: rgb(167, 78, 14);
 }
+p{ margin-left: 2%;
+margin-right: 2%;}
 
 .ubicacion {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -62,6 +64,7 @@ h1, h2 {
 .img-item {
   position: inline;
   width: 30%;
+  margin-left: 2%;
 }
 
 .contenedor2 {
