@@ -1,5 +1,6 @@
 body {
   background-color: darksalmon;
+  overflow-x: hidden; 
 }
 
 a:visited {
@@ -154,4 +155,8 @@ form {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
