@@ -146,12 +146,12 @@ form {
 }
 @media screen and (max-width: 600px) {
   body {
-    background-color: rgb(43, 154, 182);
+    background-color: darksalmon;
   }
 }
 @media screen and (max-width: 500px) {
   body {
-    background-color: rgb(136, 177, 187);
+    background-color: darksalmon;
   }
 }
 
